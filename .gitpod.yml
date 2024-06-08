@@ -11,5 +11,5 @@ tasks:
     openMode: tab-after
 vscode:
   extensions:
-    - dbaeumer.vscode-eslint npm run build
+    - dbaeumer.vscode-eslint
     - esbenp.prettier-vscode
