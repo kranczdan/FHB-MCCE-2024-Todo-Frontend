@@ -12,11 +12,4 @@ tasks:
 vscode:
   extensions:
     - dbaeumer.vscode-eslint npm run build
-    - esbenp.prettier-vscode  command: npm run start && gp preview $(gp url 4200)
-  - name: Install Angular CLI
-    init: gp sync-done installation
-    command: npm install -g @angular/cli
-  - name: Working CLI
-    init: gp sync-done installation
-    command: echo "Enter here your personal commands"
-    openMode: tab-after
+    - esbenp.prettier-vscode
